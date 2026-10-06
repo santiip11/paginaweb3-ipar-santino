@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Racing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo"> F1 RACING</div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pagina1.html">Pilotos</a>
+            <a href="pagina2.html">Equipos</a>
+            <a href="pagina3.html">Circuitos</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+    <section class="banner inicio">
+
+    <div class="texto">
+        <h1>FORMULA 1</h1>
+        <p>
+            Todo sobre la mejor y maxima categoria del automovilismo.
+        </p>
+    </div>
+
+    </section>
+
+        <section class="contenido">
+
+            <h2>Conoce la formula 1</h2>
+
+            <div class="cajitas">
+
+        <div class="caja">
+             <img src="img/pilotos.avif" alt="Pilotos de Fórmula 1">
+
+            <h3>Pilotos</h3>
+
+            <p>
+             Conoce a los pilotos que compiten en la Formula 1.
+            </p>
+         </div>
+
+         <div class="caja">
+        <img src="img/equipos.jpg" alt="Equipos de Fórmula 1">
+
+         <h3>Equipos</h3>
+
+        <p>
+            Informacion sobre las escuderias que participan.
+        </p>
+        </div>
+
+        <div class="caja">
+        <img src="img/nurburgring.jpeg" alt="Circuito de Fórmula 1">
+
+        <h3>Circuitos</h3>
+
+         <p>
+         Descubri uno de los circuitos mas importantes.
+         </p>
+        </div>
+            </div>
+
+        </section>
+
+    <section class="formulario">
+
+    <h2>Encuesta sobre Formula 1</h2>
+    <p>Completa la encuesta y contanos que te gusta de la F1.</p>
+
+    <form action="#" method="POST">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribi tu nombre" required>
+            </div>
+
+            <div>
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" name="email" placeholder="Ej: nombre@gmail.com" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sobre Formula 1</legend>
+
+            <div>
+                <label for="piloto">¿Cual es tu piloto favorito?</label>
+
+                <select id="piloto" name="piloto">
+                    <option value="">Selecciona un piloto...</option>
+                    <option value="verstappen">Max Verstappen</option>
+                    <option value="hamilton">Lewis Hamilton</option>
+                    <option value="leclerc">Charles Leclerc</option>
+                    <option value="norris">Lando Norris</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="equipo">¿Cual es tu equipo favorito?</label>
+
+                <select id="equipo" name="equipo">
+                    <option value="">Selecciona un equipo...</option>
+                    <option value="ferrari">Ferrari</option>
+                    <option value="mclaren">McLaren</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="redbull">Red Bull Racing</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <div>
+                <label>¿Te gusta la Formula 1?</label>
+
+                <div>
+                    <label>
+                        <input type="radio" name="gusta" value="si">
+                        Si
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gusta" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <label>¿Que es lo que mas te gusta?</label>
+
+                <div>
+                    <label>
+                        <input type="checkbox" name="intereses" value="pilotos">
+                        Pilotos
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="intereses" value="equipos">
+                        Equipos
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="intereses" value="carreras">
+                        Carreras
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="intereses" value="circuitos">
+                        Circuitos
+                    </label>
+                </div>
+            </div>
+
+            <div>
+                <label for="comentarios">Comentarios</label>
+
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribi tu opinion..."></textarea>
+            </div>
+
+        </fieldset>
+
+        <div>
+            <button type="submit">Enviar encuesta</button>
+            <button type="reset">Limpiar formulario</button>
+        </div>
+
+    </form>
+
+    </section>
+
+    </main>
+
+
+
+
+    <footer>
+
+    <div class="cajitas-footer">
+
+        <div class="caja-footer">
+            <h3>Contacto</h3>
+            <p>Formula1@gmail.com</p>
+        </div>
+
+        <div class="caja-footer">
+            <h3>Redes Sociales</h3>
+            <p>FORMULA1IG</p>
+        </div>
+
+        <div class="caja-footer">
+            <h3>Enlaces</h3>
+            <p>https://www.formula1.com/</p>
+        </div>
+
+        <div class="caja-footer">
+            <h3>F1 Racing</h3>
+            <p>Todo sobre la grandisima Formula 1</p>
+        </div>
+
+    </div>
+
+    <p>Página realizada con fines educativos.</p>
+
+</footer>
+
+
+
+
+</body>
+</html>

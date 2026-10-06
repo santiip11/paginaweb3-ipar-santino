@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #15151E;
+}
+
+header {
+    background-color: #15151E;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E10600;
+}
+
+.banner {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.inicio {
+    background-image: url("img/fotobanner.jpg");
+}
+
+.pilotos {
+    background-image: url("img/banner2.jpg");
+}
+
+.equipos {
+    background-image: url("img/banner3.jpg");
+}
+
+.circuitos {
+    background-image: url("img/banner4.jpg");
+}
+
+
+.texto {
+    width: 50%;
+}
+
+.texto h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.texto p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 40px;
+    text-align: center;
+}
+
+.contenido h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cajitas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.caja {
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #dddddd;
+}
+
+.caja h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.caja p {
+    font-size: 17px;
+}
+
+.caja img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.caja:hover {
+    border-color: #E10600;
+}
+
+footer {
+    background-color: #15151E;
+    padding: 30px;
+    text-align: center;
+}
+
+.cajitas-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.caja-footer {
+    width: 350px;
+    padding: 15px;
+    background-color: #333333;
+    border-radius: 10px;
+    color: white;
+}
+
+.texto-footer {
+    color: white;
+    margin-top: 25px;
+}
+
+.formulario {
+    padding: 40px;
+    text-align: center;
+}
+
+.formulario h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.formulario p {
+    font-size: 17px;
+}
+
+.formulario form {
+    width: 90%;
+    margin: auto;
+}
+
+.formulario fieldset {
+    margin-bottom: 20px;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+}
+
+.formulario legend {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.formulario div {
+    margin: 15px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.formulario textarea {
+    width: 80%;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #E10600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario button:hover {
+    background-color: #15151E;
+}
